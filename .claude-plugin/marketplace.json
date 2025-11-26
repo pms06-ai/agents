@@ -6,7 +6,7 @@
     "url": "https://github.com/wshobson"
   },
   "metadata": {
-    "description": "Production-ready workflow orchestration with 64 focused plugins, 87 specialized agents, and 44 tools - optimized for granular installation and minimal token usage",
+    "description": "Production-ready workflow orchestration with 66 focused plugins, 89 specialized agents, and 59 tools - optimized for granular installation and minimal token usage",
     "version": "1.2.0"
   },
   "plugins": [

@@ -36,7 +36,7 @@ This marketplace follows industry best practices with a focus on granularity, co
 
 ### Plugin Distribution
 
-- **63 focused plugins** optimized for specific use cases
+- **66 focused plugins** optimized for specific use cases
 - **23 clear categories** with 1-6 plugins each for easy discovery
 - Organized by domain:
   - **Development**: 4 plugins (debugging, backend, frontend, multi-platform)
@@ -48,7 +48,7 @@ This marketplace follows industry best practices with a focus on granularity, co
 
 ### Component Breakdown
 
-**85 Specialized Agents**
+**89 Specialized Agents**
 - Domain experts with deep knowledge
 - Organized across architecture, languages, infrastructure, quality, data/AI, documentation, business, and SEO
 - Model-optimized (47 Haiku, 97 Sonnet) for performance and cost
@@ -58,7 +58,7 @@ This marketplace follows industry best practices with a focus on granularity, co
 - Complex operations like full-stack development, security hardening, ML pipelines, incident response
 - Pre-configured agent workflows
 
-**44 Development Tools**
+**59 Development Tools**
 - Optimized utilities including:
   - Project scaffolding (Python, TypeScript, Rust)
   - Security scanning (SAST, dependency audit, XSS)
@@ -66,7 +66,7 @@ This marketplace follows industry best practices with a focus on granularity, co
   - Component scaffolding (React, React Native)
   - Infrastructure setup (Terraform, Kubernetes)
 
-**47 Agent Skills**
+**61 Agent Skills**
 - Modular knowledge packages
 - Progressive disclosure architecture
 - Domain-specific expertise across 14 plugins
@@ -77,7 +77,7 @@ This marketplace follows industry best practices with a focus on granularity, co
 ```
 claude-agents/
 ├── .claude-plugin/
-│   └── marketplace.json          # Marketplace catalog (63 plugins)
+│   └── marketplace.json          # Marketplace catalog (66 plugins)
 ├── plugins/                       # Isolated plugin directories
 │   ├── python-development/
 │   │   ├── agents/               # Python language agents
@@ -183,7 +183,7 @@ description: What the skill does. Use when [trigger]. # Required: < 1024 chars
 - **Composability**: Mix and match skills across workflows
 - **Maintainability**: Isolated updates don't affect other skills
 
-See [Agent Skills](./agent-skills.md) for complete details on the 47 skills.
+See [Agent Skills](./agent-skills.md) for complete details on the 61 skills.
 
 ## Model Configuration Strategy
 
@@ -247,7 +247,7 @@ code-reviewer (Sonnet) validates architecture
 ### Component Coverage
 
 - **100% agent coverage** - all plugins include at least one agent
-- **100% component availability** - all 85 agents accessible across plugins
+- **100% component availability** - all 89 agents accessible across plugins
 - **Efficient distribution** - 3.4 components per plugin average
 
 ### Discoverability
@@ -375,5 +375,5 @@ Feature Development Workflow:
 
 - [Agent Skills](./agent-skills.md) - Modular knowledge packages
 - [Agent Reference](./agents.md) - Complete agent catalog
-- [Plugin Reference](./plugins.md) - All 63 plugins
+- [Plugin Reference](./plugins.md) - All 66 plugins
 - [Usage Guide](./usage.md) - Commands and workflows
